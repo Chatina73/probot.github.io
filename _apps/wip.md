@@ -3,25 +3,24 @@ title: Work In Progress
 description: Prevent merging of Pull Requests with "WIP" in the title
 slug: wip
 screenshots:
-- https://raw.githubusercontent.com/gr2m/wip-bot/master/assets/wip.gif
+  - https://raw.githubusercontent.com/gr2m/wip-bot/master/assets/wip.gif
 authors:
-- gr2m
+  - gr2m
 repository: wip/app
-stars: 597
-updated: 2021-04-26 19:02:25 UTC
+stars: 614
+updated: 2021-07-05 23:17:38 UTC
 host: https://wip.vercel.app/ping
-installations: 1366
 organizations:
-- electron
-- dotnet
-- ant-design
-- jekyll
-- flutter
-- webtorrent
-- standard
-- StackExchange
-- home-assistant
-- markedjs
+  - electron
+  - dotnet
+  - ant-design
+  - jekyll
+  - flutter
+  - webtorrent
+  - standard
+  - StackExchange
+  - home-assistant
+  - markedjs
 ---
 
 If you don’t want a pull request to be merged accidentally, add the word "wip" or "WIP" to its title and WIP bot will set its status to error. That’s all :)

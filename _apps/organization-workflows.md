@@ -1,28 +1,28 @@
 ---
 title: Organization Workflows
-description: Need to centrally manage and run Actions workflows across multiple repositories?
-  This app does it for you.
+description: Need to centrally manage and run Actions workflows across multiple
+  repositories? This app does it for you.
 slug: organization-workflows
 screenshots:
-- https://socialify.git.ci/SvanBoxel/organization-workflows/image?font=Inter&owner=1&theme=Dark
-- https://user-images.githubusercontent.com/24505883/102870418-479b8380-443d-11eb-9fe7-ea78a20a09fb.png
+  - https://socialify.git.ci/SvanBoxel/organization-workflows/image?font=Inter&owner=1&theme=Dark
+  - https://user-images.githubusercontent.com/24505883/102870418-479b8380-443d-11eb-9fe7-ea78a20a09fb.png
 authors:
-- svanboxel
+  - svanboxel
 repository: SvanBoxel/organization-workflows
 host: https://organization-workflows-bot.azurewebsites.net/
-stars: 39
-updated: 2021-04-21 16:29:09 UTC
-installations: 
+stars: 41
+updated: 2021-07-10 19:56:57 UTC
 organizations:
-- Santandersecurityresearch
-- octodemo
-- visibilitysaurus
-- RohitDemo
-- NPD-Deloitte
-- org-workflow-test-organization
-- iHOMIES
-- saturn-inc
-- moon-organization
+  - Santandersecurityresearch
+  - octodemo
+  - kleeadrian
+  - visibilitysaurus
+  - RohitDemo
+  - nike-cis-automation
+  - Bunnings-Engineering
+  - MyOrgLab
+  - edisonsolutions
+  - dockerbuilds
 ---
 
 # Organization workflows app
@@ -153,7 +153,7 @@ This codespaces comes and configured installed with:
 ### Setup locally
 This app depends on NodeJS to run the application and MongoDB for data persistence. Follow the following steps to run this app locally:
 
-```sh
+```bash
 # Install dependencies
 npm install
 ```
@@ -161,7 +161,7 @@ npm install
 Then, copy `.env.example` to `.env` and populate it with your MongoDB host and credentials and your proxy url. Make sure to run a tool like [ngrok](https://ngrok.com/) or [localtunnel](https://github.com/localtunnel/localtunnel) to expose your application to the internet. Smee.io is not supported, as it is a webhook proxy service and cannot forward Express endpoint calls
 
 Now you can run the app with the following command:
-```sh
+```bash
 npm run build:watch
 ```
 
