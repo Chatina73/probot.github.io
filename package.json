@@ -1,7 +1,44 @@
 {
   "private": true,
-  "dependencies": {
-    "primer-css": "^8.0.0"
+  "scripts": {
+    "format": "prettier --write '**/*.js' '**/*.scss' '**/*.html'",
+    "sass": "node script/sass.js",
+    "watch": "npm-run-all --parallel watch:sass watch:eleventy",
+    "watch:sass": "node script/watchsass.js",
+    "watch:eleventy": "eleventy --serve",
+    "build": "eleventy",
+    "lint": "eslint script/sync.ts",
+    "sync-data": "node --loader=ts-node/esm script/sync.ts"
   },
-  "repository": "github:probot/probot.github.io"
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@primer/css": "^21.0.0",
+    "@primer/octicons": "^19.0.0",
+    "@primer/primitives": "^11.0.0",
+    "@primer/view-components": "^0.44.0",
+    "domutils": "^4.0.0",
+    "html-minifier": "^4.0.0",
+    "liquidjs": "^10.0.0",
+    "markdown-it": "^14.0.0",
+    "sass": "^1.49.8",
+    "supports-color": "^10.0.0"
+  },
+  "repository": "github:probot/probot.github.io",
+  "devDependencies": {
+    "@octokit/rest": "^22.0.0",
+    "@types/node": "^24.0.0",
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "npm-run-all2": "^8.0.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.0.0",
+    "yaml": "2.8.3"
+  },
+  "packageManager": "yarn@4.15.0",
+  "type": "module"
 }

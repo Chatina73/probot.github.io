@@ -1,0 +1,14 @@
+@use "sass:color";
+
+$brand: (red, #ef4136), (blue, #00b0d8), (blue-dark, color.adjust(#00b0d8, $lightness: 10%, $space: hsl)),
+  (blue-light, color.adjust(#afdfe4, $lightness: -15%, $space: hsl)), (orange, #fcba63);
+
+@each $name, $color in $brand {
+  .bg-brand-#{"" + $name} {
+    background-color: $color;
+  }
+
+  .text-brand-#{"" + $name} {
+    color: $color;
+  }
+}

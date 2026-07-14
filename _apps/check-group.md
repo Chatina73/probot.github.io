@@ -3,14 +3,14 @@ title: Check Group
 description: Groups CI checks based on the sub-projects for monorepo projects.
 slug: check-group
 screenshots:
-- https://github.com/tianhaoz95/check-group/raw/master/docs/assets/screenshot/example_pr_checks.png
-- https://github.com/tianhaoz95/check-group/raw/master/docs/assets/screenshot/check_details.png
+  - https://github.com/tianhaoz95/check-group/raw/master/docs/assets/screenshot/example_pr_checks.png
+  - https://github.com/tianhaoz95/check-group/raw/master/docs/assets/screenshot/check_details.png
 authors:
-- tianhaoz95
+  - tianhaoz95
 repository: tianhaoz95/check-group
 host: https://check-group.herokuapp.com
-stars: 6
-updated: 2021-04-26 21:12:32 UTC
+stars: 21
+updated: 2026-01-26 19:13:15 UTC
 ---
 
 Groups CI checks based on the sub-projects for monorepo projects.

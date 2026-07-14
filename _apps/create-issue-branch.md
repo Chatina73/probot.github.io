@@ -3,25 +3,24 @@ title: Create Issue Branch
 description: Automates the creation of issue branches.
 slug: create-issue-branch
 screenshots:
-- https://github.com/robvanderleek/create-issue-branch/blob/master/static/create-issue-branch.gif?raw=true
+  - https://github.com/robvanderleek/create-issue-branch/blob/master/static/create-issue-branch.gif?raw=true
 authors:
-- robvanderleek
+  - robvanderleek
 repository: robvanderleek/create-issue-branch
 host: https://create-issue-branch.herokuapp.com
-stars: 136
-updated: 2021-04-26 07:04:26 UTC
-installations: 1419
+stars: 345
+updated: 2026-04-02 07:52:27 UTC
 organizations:
-- openaphid
-- mrlesmithjr
-- pterm
-- lukaszflorczak
-- mallowigi
-- nielse63
-- kwebio
-- CoreProc
-- chauncey-garrett
-- othreecodes
+  - peers
+  - guanguans
+  - pojntfx
+  - theodorusclarence
+  - ALBINPRAVEEN
+  - kwebio
+  - nielse63
+  - TotallyInformation
+  - CoreProc
+  - deep5050
 ---
 # Create Issue Branch
 
